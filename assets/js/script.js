@@ -1,20 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
-	getPrompt()
+	getPrompt(activities);
 });
 
 var newPrompt =""
 
-function getPrompt(dailyPrompt) {
-    console.log("Function Working")
-    newPrompt = dailyPrompt[Math.floor(Math.random() * dailyPrompt.length)];
+function getPrompt(activities) {
+    console.log("Function Working");
+    newPrompt = activities[Math.floor(Math.random() * activities.length)];
+    console.log(newPrompt);
+    printPrompt()
 }
 
-
-/** 
- * function getPrompt(dailyPrompt) {
-	newPrompt = words[Math.floor(Math.random() * words.length)];
-	openGameScreen();
-	setRandomWord();
-	checkGuess();
+function printPrompt() {
+    let dailyPrompt = document.getElementById('activity');
+    dailyPrompt.innerHTML = newPrompt;
 }
-**/
