@@ -1,5 +1,6 @@
 // The map() operator
-//returns a new array containing all results of a callback function
+// Executes a function on all elements in an array and 
+// returns a new array containing all results of a callback function
 // A callback function is a function you want to execute on every element in the array
 //EXAMPLE
 

@@ -1,5 +1,6 @@
 //the filter() method
 //iterates over an array of items and filters the array to only a specified set of results
+// filters out unwanted results - returns array
 // EXAMPLE
 
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
